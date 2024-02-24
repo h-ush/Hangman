@@ -1,0 +1,50 @@
+GAME.CPP HISTORY
+
+//======================================================================================
+// Checks if the guessed letter is in the word
+//======================================================================================
+// bool Game::checkIfLetterIsInWord()
+// {
+//   if (m_current_Word != m_word.getWord())
+//   {
+//     m_current_Word = m_word.getWord();
+//   }
+//
+//   std::size_t guessedLetter{ m_current_Word.find(m_player_letter_guess) };
+//
+//   if (guessedLetter != std::string::npos)
+//   {
+//     if (m_current_Word == m_player_letter_guess)
+//     {
+//       m_inWord = true;
+//       m_player_letter_guess = m_word_so_far;
+//       std::cout << "\n[ + ] FOUND WHOLE WORD!\n";
+//
+//       // WORK AROUND NEED TO FIND SOLUTION
+//       std::cout << "The word was "; printChosenWord();
+//     }
+//     else
+//     {
+//       for (std::size_t index{}; index < m_current_Word.length(); index++)
+//       {
+//         if (m_current_Word.at(guessedLetter) == m_current_Word.at(index))
+//         {
+//           m_inWord = true;
+//           m_word_so_far.at(index) = m_current_Word.at(guessedLetter);
+//         }
+//         else
+//         {
+//           m_inWord = false;
+//         }
+//       }
+//       std::cout << guessBar() << '\n';
+//     }
+//   }
+//   else
+//   {
+//     std::cout << "[ - ] SORRY... Character is not in word\n";
+//   }
+//
+//   return m_inWord;
+// }
+

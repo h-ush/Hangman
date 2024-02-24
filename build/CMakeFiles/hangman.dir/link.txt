@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hangman.dir/main.cpp.o -o hangman  Player/libPlayer.a Random/libRandom.a Game/libGame.a Utility/libUtility.a Player/libPlayer.a Random/libRandom.a Utility/libUtility.a 

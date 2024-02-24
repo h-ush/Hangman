@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/hush/pcp/C++/projects/hangman/build",
+  "command": "/usr/bin/c++  -I/home/hush/pcp/C++/projects/hangman/Player/include -I/home/hush/pcp/C++/projects/hangman/Random/include -I/home/hush/pcp/C++/projects/hangman/Game/include -I/home/hush/pcp/C++/projects/hangman/Utility/include -g -std=gnu++17 -o CMakeFiles/hangman.dir/main.cpp.o -c /home/hush/pcp/C++/projects/hangman/main.cpp",
+  "file": "/home/hush/pcp/C++/projects/hangman/main.cpp",
+  "output": "CMakeFiles/hangman.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hush/pcp/C++/projects/hangman/build/Player",
+  "command": "/usr/bin/c++  -I/home/hush/pcp/C++/projects/hangman/Player/include -I/home/hush/pcp/C++/projects/hangman/Utility/include -g -std=gnu++17 -o CMakeFiles/Player.dir/src/player.cpp.o -c /home/hush/pcp/C++/projects/hangman/Player/src/player.cpp",
+  "file": "/home/hush/pcp/C++/projects/hangman/Player/src/player.cpp",
+  "output": "Player/CMakeFiles/Player.dir/src/player.cpp.o"
+},
+{
+  "directory": "/home/hush/pcp/C++/projects/hangman/build/Random",
+  "command": "/usr/bin/c++  -I/home/hush/pcp/C++/projects/hangman/Random/include -g -std=gnu++17 -o CMakeFiles/Random.dir/src/random.cpp.o -c /home/hush/pcp/C++/projects/hangman/Random/src/random.cpp",
+  "file": "/home/hush/pcp/C++/projects/hangman/Random/src/random.cpp",
+  "output": "Random/CMakeFiles/Random.dir/src/random.cpp.o"
+},
+{
+  "directory": "/home/hush/pcp/C++/projects/hangman/build/Game",
+  "command": "/usr/bin/c++  -I/home/hush/pcp/C++/projects/hangman/Game/include -I/home/hush/pcp/C++/projects/hangman/Player/include -I/home/hush/pcp/C++/projects/hangman/Random/include -I/home/hush/pcp/C++/projects/hangman/Utility/include -g -std=gnu++17 -o CMakeFiles/Game.dir/src/game.cpp.o -c /home/hush/pcp/C++/projects/hangman/Game/src/game.cpp",
+  "file": "/home/hush/pcp/C++/projects/hangman/Game/src/game.cpp",
+  "output": "Game/CMakeFiles/Game.dir/src/game.cpp.o"
+},
+{
+  "directory": "/home/hush/pcp/C++/projects/hangman/build/Utility",
+  "command": "/usr/bin/c++  -I/home/hush/pcp/C++/projects/hangman/Utility/include -g -std=gnu++17 -o CMakeFiles/Utility.dir/src/utility.cpp.o -c /home/hush/pcp/C++/projects/hangman/Utility/src/utility.cpp",
+  "file": "/home/hush/pcp/C++/projects/hangman/Utility/src/utility.cpp",
+  "output": "Utility/CMakeFiles/Utility.dir/src/utility.cpp.o"
+}
+]
